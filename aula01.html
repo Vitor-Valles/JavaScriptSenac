@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 01 - JS</title>
+    <!--Criando nosso primeiro programa em JS-->
+    <script>
+
+        //--------------------------------------------------------------------------------------------------------------
+
+        /*
+        //Criando um alerta na pagina
+        alert("olá mundo");//<-- constante
+
+        //Criando varivaeis com "var"
+        var nome;
+
+        //Atribuindo o valor a varivel nome
+        nome = "Vitor Valles";
+        alert(nome);
+        alert("ola " +nome+ " ,você está bem?")//<-- para conctenar a frase e vareaveis usa-se o nisal +
+
+        nome = 5+6
+        alert(nome);
+        
+        //prompt mostra uma caixa que o usuario escrevera uma informação e essa informação sera atribuida na "variavel"
+        nome=prompt("Digite seu nome:");
+        alert(nome);
+        */
+
+        //-------------------------------------------------------------------------------------------------------------
+
+        /*      
+        programa troca de valores
+        *versão: v.1
+        *autor: Vitor A. Valles
+        *licença: Antony
+        *Data: 27/03/2024
+        */
+        
+        
+        /*
+        var A, B, TEMP;
+
+        A = prompt("Digite uma cor: ")
+        B = prompt("Digite outra cor: ")
+
+        TEMP= A;
+        A = B;
+        B = TEMP;
+
+        alert("o valor da cor de A é: "+A);
+        alert("O valor da cor de B é"+B);
+        */
+
+        //------------------------------------
+        /*
+        // Operadores aritiméticos 
+        Exponecional                  -- **
+        *multiplicação                  -- *
+        *Divisão                        -- /
+        *Módulo(Resto da divisão)       -- %
+        *Adição                         -- +
+        *Subtração                      -- -
+        *Incrementar                    -- ++
+        *Decrementar                    -- --
+        */
+        
+        //------------------------------------
+
+        //Operadores relacionais
+        /*      igualdade                     -- ==
+        *igualdade absoluta             -- ===
+        *Diferente de                   -- !=
+        *Difeente de absoluto           -- !==
+        *Maior que                      -- >
+        *menor que                      -- <
+        *maior ou igual a               -- >=
+        *maior ou igual  a              -- <=
+        */
+
+        //------------------------------------
+        /*
+        //Operadores Lógicos
+        
+        *Conjunção "E"                  -- &&
+        *Disjunção "OU"                 -- ||
+        *Negação "NÃO"                  -- !
+        */
+
+        //------------------------------------
+        /*
+        //Criando variaveis com let
+        let a, b, result
+
+        //o parseInt convert o valor de entrada para numero do tipo inteiro
+        a = parseInt(prompt("Digite o 1º valor: "))
+        b = parseInt(prompt("Digite o 2º valor: "))
+
+        result = (a**b)
+        result = (a*b)
+        result = (a/b)
+        result = (a%b)
+        result = (a+b)
+        result = (a-b)
+        
+        //se colocar a++ acima do a-- ou inverso somara mais um depois diminuira um
+        //a++
+        a--
+        result = (a)
+
+        //o perseFloat convert o valor de entrada para numero do tipo real
+        a = parseFloat(prompt("Digite o valor para A: "))
+
+        result = a
+        
+        alert("O resultado e:" + resut )
+
+
+
+        alert ("o resultado é:" + result)
+        */
+        /*
+        /*Crie um programa que após entrada do nome, matéria, notas
+        avaliação 1, trabalho e avaliação 2, calcule a média para
+        este bimestre.No final solte um alerta com nome, matéria e
+        média do bimestre
+        */
+        let nome, materia, nota1, nota2, nota3, resultado
+
+        nome = prompt("digite o nome do aluno: ")
+
+        materia = prompt("digite a materia: ")
+
+        //nota1 = parseFloat(prompt("digite"))
+
+        nota1 = parseFloat(prompt("digite a primeira nota: "))
+        nota2 = parseFloat(prompt("digite a segunda nota: "))
+        nota3 = parseFloat(prompt("digite a terceira nota: "))
+
+        resultado = (nota1+nota2+nota3)/3
+
+        alert("o nome do aluno e: "+ nome +"a materia e: "+ materia +"e a media das notas é: "+ resultado.toFixed(1))
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
