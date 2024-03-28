@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 02 - JS</title>
+<script>
+    /*
+    let numero
+
+    //estrutura concional SE
+    
+        if ((numero = parseInt(prompt("digite um numero: "))) === 0){
+            //alert("zero!!")
+            resp = "zero"
+        } else if(numero % 2 == 0){
+            //alert("par!!")
+            resp = "par"
+        }else{
+            //alert("impar!!!")
+            resp = "impar"
+        }
+        alert(resp + "!!!")
+    */
+    /*
+        apos receber o nome a materia ae as notas dos 4 bimestres de um aluno,
+        calcule a sua media final. e imprima o resultado deste aluno.
+        media > 10 ou < 0 - Média Final Invalida 
+        media >= 7 - aprovado
+        media >= 6.5 - conselho
+        media >= 4 - recuperação
+        media < 4 - reprovado 
+        no final solte um alerta com nome, matéria, media final e o resultado.
+    */
+    /*
+        let nome, materia, n1, n2, n3 ,n4, media
+
+        nome = prompt("Digite o nome do Aluno: ")
+        materia = prompt("Digite o nome da Materia: ")
+
+        n1 = parseInt(prompt("Digite a nota do 1ºbimestre: "))
+            if(n1  <0  ||  n1 >10 ){
+                alert("valor invalido")
+            }
+        n2 = parseInt(prompt("Digite a nota do 2ºbimestre: "))
+            if(n2  <0  ||  n2 >10 ){
+                    alert("valor invalido")
+                }
+        n3 = parseInt(prompt("Digite a nota do 3ºbimestre: "))
+            if(n3  <0  ||  n3 >10 ){
+                    alert("valor invalido")
+                }
+
+        n4 = parseInt(prompt("Digite a nota do 4ºbimestre: "))
+            if(n4  <0  ||  n4 >10 ){
+                alert("valor invalido")
+            }
+            /*if((nota1 < 0 || nota1 > 10) || (nota2 < 0 || nota2 > 10) || (nota3 < 0 || nota3 > 10) || (nota4 < 0 || nota4 > 10) ){
+            alert ("Erro! Todas as notas devem estar em um intervalo entre 0 e 10. Por favor, digite novamente")
+            }else {
+            
+
+
+
+        media = (n1+n2+n3+n4)/4
+
+        if (media >=7){
+            resp = "aprovado"
+        } else if(media >= 6.5){
+            resp = "conselho"
+        }else if(media >= 4){
+            resp = "recuperação"
+        }
+        else {
+            resp = "reprovado"
+        }
+
+        alert("o nome do aluno e: "+nome+"a materia escolhida foi: "+materia+" e sua media foi:"+ media +" resultando em: "+resp )
+        */
+        numero1 = parseInt(prompt("Digite um numero de 0 até 5: "))
+        // estrutura condicional  de caso //
+        switch(numero1){
+            case 0:
+                resp = "zero"
+                break
+            case 1:
+                resp = "um"
+                break
+            case 2:
+                resp = "dois"
+                break
+            case 3:
+                resp = "três"
+                break
+            case 4:
+                resp = "quatro"
+                break
+            case 5:
+                resp = "cinco"
+                break
+            default:
+                resp = " o numero fornecido diferente de 0 até 5!"
+        }
+        alert(resp)
+        
+</script>
+
+
+</head>
+<body>
+    
+</body>
+</html>
