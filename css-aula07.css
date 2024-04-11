@@ -1,0 +1,31 @@
+/*Manipular matriz via objeto;
+*Autor: Vitor Andrade Valles;
+*licença: GNU;
+*Data:2024/04/10
+*Versão: v1.0;
+*/
+/* importando arquivo externo */
+@import url(reset.css);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+/* criando variaveis */
+:root{
+    --ff-primary: "Roboto",sans-serif;
+    --ff-secondary:"Open Sans",sans-serif;
+    --fc-title:#49a6e9;
+    --fc:#00f;
+    --spacing:0.20rem;
+}
+/* fonte serifa -> para impressão */
+/* fonte baulada -> principal usada na web */
+/* Css publico */
+body{
+    font-family: var(--ff-secondary);
+    color:var(--fc);
+    line-height: 1.5;
+    font-size: 0.875rem;
+}
+a{text-decoration:none}
+a,img{display:block}
+h1,h2,h3,h4,h5,h6{font-family:var(--ff-primary);color:var(--fc-title);letter-spacing:var(--spacing);}
+/* colocando o modelo de fontepara titulos e colocando o modelo de cor para titulos */
